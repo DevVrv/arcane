@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     flex-direction: column;
+    display: none !important;
 
     &__sections {
         width: 100%;
@@ -25,18 +26,18 @@
         }
     }
 
-    &__sections--home {
-    }
+    // &__sections--home {
+    // }
 
-    &__sections--project {
-    }
+    // &__sections--project {
+    // }
 
-    &__sections--me {
-    }
+    // &__sections--me {
+    // }
 
-    &__sections--contacts {
-    }
+    // &__sections--contacts {
+    // }
 
-    &__sections--prices {
-    }
+    // &__sections--prices {
+    // }
 }

@@ -1,4 +1,3 @@
-
 // -- text sizes
 .fs-1 {
     font-size: 2.5rem;
@@ -15,6 +14,18 @@
 .fs-5 {
     font-size: 1.25rem;
 }
+
+// font styles
+.capitalize {
+    text-transform: capitalize;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+
 
 // -- font fasces
 @font-face {
