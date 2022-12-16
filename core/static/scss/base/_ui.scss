@@ -1,0 +1,27 @@
+// base ui
+.link {
+    color: $lite;
+    transition: color 0.4s ease, opacity 0.4s ease;
+    
+    &:hover {
+        color: $primary;
+    }
+    &:focus {
+        color: $primary;
+    }
+
+    &.disabled {
+        color: $fade !important;
+
+    }
+    &.active {
+        color: $secondary;
+        &:hover {
+            color: $primary;
+        }
+        &:focus {
+            color: $primary;
+        }
+    }
+
+}

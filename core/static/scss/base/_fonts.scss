@@ -1,0 +1,24 @@
+
+// -- text sizes
+.fs-1 {
+    font-size: 2.5rem;
+}
+.fs-2 {
+    font-size: 2rem;
+}
+.fs-3 {
+    font-size: 1.75rem;
+}
+.fs-4 {
+    font-size: 1.5rem;
+}
+.fs-5 {
+    font-size: 1.25rem;
+}
+
+// -- font fasces
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('/static/fonts/open-sans/static/OpenSans/OpenSans-Medium.ttf'),
+         url('../../fonts/open-sans/static/OpenSans/OpenSans-Medium.ttf');
+}

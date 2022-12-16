@@ -1,0 +1,37 @@
+// color variables
+$dark: #232323;
+$lite: #dcdcdc;
+$primary: #d73659;
+$secondary: #973046;
+$fade: #606060;
+
+// bg colors
+.bg-dark {
+    background-color: $dark !important;
+}
+.bg-lite {
+    background-color: $lite !important;
+}
+.bg-primary {
+    background-color: $primary !important;
+}
+.bg-secondary {
+    background-color: $secondary !important;
+}
+
+// text colors 
+.text-dark {
+    color: $dark !important;
+}
+.text-lite {
+    color: $lite !important;
+}
+.text-primary {
+    color: $primary !important;
+}
+.text-secondary {
+    color: $secondary !important;
+}
+.tetx-fade {
+    color: $fade !important;
+}

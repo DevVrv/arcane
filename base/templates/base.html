@@ -1,0 +1,39 @@
+{% extends 'core.html' %}
+{% load static %}
+
+{% comment %} content {% endcomment %}
+{% block content %}
+
+    {% include 'inc/_header.html' %}
+
+    <div class="main">
+        <div class="container main__container">
+            <div class="content rounded shadow px-4 py-5">
+                <div class="content__sections">
+
+                    <!-- Home -->
+                    {% include 'inc/pages/_home.html' %}
+                    
+                    <!-- About Project -->
+                    {% include 'inc/pages/_project.html' %}
+                    
+                    <!-- About Me -->
+                    {% include 'inc/pages/_me.html' %}
+                    
+                    <!-- Contacts -->
+                    {% include 'inc/pages/_contacts.html' %}
+                    
+                    <!-- Prices -->
+                    {% include 'inc/pages/_prices.html' %}
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'inc/_footer.html' %}
+
+{% endblock content %}
+
+{% block scripts %}
+{% endblock scripts %}

@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% comment %} favicon  {% endcomment %}
+    <link rel="icon" href="{% static 'img/logo/favicon/favicon.ico' %}" type="image/x-icon">
+
+    {% comment %} page title {% endcomment %}
+    <title>{% block title %}{% endblock title %}</title>
+
+    {% comment %} icon fonts {% endcomment %}
+    <link rel="stylesheet" href="{% static 'fonts/icofont/icofont.min.css' %}">
+    <link rel="stylesheet" href="{% static 'fonts/fa5/font-awesome.min.css' %}">
+
+    {% comment %}  {% endcomment %}
+    {% comment %} <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> {% endcomment %}
+
+    
+    {% comment %} static css files {% endcomment %}
+    <link rel="stylesheet" href="{% static 'css/style.min.css' %}">
+
+    {% block more_style %}{% endblock more_style %}
+
+</head>
+<body>
+    <div class="wrapper bg-dark">
+        {% comment %} page content {% endcomment %}
+        {% block content %}{% endblock content %}
+    </div>
+    
+    {% comment %} scripts {% endcomment %}
+    <script src="{% static 'js/control.js' %}"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+
+    {% block scripts %}{% endblock scripts %}
+</body>
+</html>
