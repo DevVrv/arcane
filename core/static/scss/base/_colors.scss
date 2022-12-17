@@ -1,4 +1,5 @@
 // color variables
+$black: #000000;
 $dark: #232323;
 $lite: #dcdcdc;
 $primary: #d73659;
@@ -34,4 +35,23 @@ $fade: #606060;
 }
 .tetx-fade {
     color: $fade !important;
+}
+
+// box shadows
+$box-shadow: 0 .5rem 1rem rgba($black, .15);
+$box-shadow-sm: 0 .125rem .25rem rgba($black, .075);
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175);
+$box-shadow-inset: inset 0 1px 2px rgba($black, .075);
+
+.shadow {
+    box-shadow: $box-shadow;
+}
+.shadow-sm {
+    box-shadow: $box-shadow-sm;
+}
+.shadow-lg {
+    box-shadow: $box-shadow-lg;
+}
+.shadow-inset {
+    box-shadow: $box-shadow-inset;
 }

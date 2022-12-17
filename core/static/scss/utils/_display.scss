@@ -17,6 +17,11 @@
     flex-direction: column;
 }
 
+// flex auto
+.flex-auto {
+    flex: 1 1 auto;
+}
+
 // justify content
 .j-content-center {
     justify-content: center;
@@ -47,3 +52,4 @@
 .a-items-start {
     align-items: flex-start;
 }
+

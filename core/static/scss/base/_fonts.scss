@@ -26,6 +26,33 @@
     text-transform: lowercase;
 }
 
+// text align
+.text-center {
+    text-align: center;
+}
+.text-end {
+    text-align: end;
+}
+.text-start {
+    text-align: start;
+}
+
+// line height
+.line-h-1 {
+    line-height: 2.5rem;
+}
+.line-h-2 {
+    line-height: 2rem;
+}
+.line-h-3 {
+    line-height: 1.75rem;
+}
+.line-h-4 {
+    line-height: 1.5rem;
+}
+.line-h-5 {
+    line-height: 1.25rem;
+}
 
 // -- font fasces
 @font-face {

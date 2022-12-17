@@ -3,6 +3,9 @@
 @import 'utils/_mixins';
 @import 'utils/_spacing';
 @import 'utils/_display';
+@import 'utils/_border';
+@import 'utils/_sizes';
+@import 'utils/_containers';
 
 // Import base 
 @import 'base/_fonts';
@@ -13,46 +16,8 @@
 
 // Components
 @import 'components/_nav';
+@import 'components/_top-layer';
 
-// ---------- page containers settings
-body {
-    color: $lite;
-    font-family: 'Open-Sans'; 
-}
-
-.container {
-    margin: 0 auto;
-    @include adaptive-value('width', 1320, 300, 0);
-}
-
-.wrapper {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-// ---------- header
-.header {
-    height: 70px;
-}
-
-// ---------- main
-.main {
-    flex: 1 1 auto;
-
-    &__container {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-// ---------- footer
-.footer {
-    height: 70px;
-}
 
 // Import pages scss files
 @import 'pages/_base';

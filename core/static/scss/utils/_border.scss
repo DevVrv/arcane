@@ -1,0 +1,18 @@
+// rounded
+$border-radius: .25rem;
+$border-radius-sm: .2rem;
+$border-radius-lg: .3rem;
+$border-radius-pill: 50rem;
+
+.rounded {
+    border-radius: $border-radius;
+}
+.rounded-sm {
+    border-radius: $border-radius-sm;
+}
+.rounded-lg {
+    border-radius: $border-radius-lg;
+}
+.rounded-pill {
+    border-radius: $border-radius-pill;
+}

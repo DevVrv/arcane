@@ -1,0 +1,24 @@
+// page containers settings
+.container {
+    margin: 0 auto;
+    @include adaptive-value('width', 1320, 300, 0);
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+// oveflow hidden
+.oveflow-hidden {
+    overflow: hidden;
+}
+.oveflow-x-hidden {
+    overflow-x: hidden;
+}
+.oveflow-y-hidden {
+    overflow-y: hidden;
+}

@@ -1,6 +1,18 @@
 "use strict"; 
 document.addEventListener('DOMContentLoaded', () => {
 
-    const e = $('.container');
+    function HomeTab() {
+
+        // <-- Get elements
+        const tab = $('.tab');
+        const buttons = $('button', tab);
+        
+        buttons.event({
+            action: () => {
+                console.log(buttons);
+            }
+        })
+    }
+    HomeTab();
 
 });
